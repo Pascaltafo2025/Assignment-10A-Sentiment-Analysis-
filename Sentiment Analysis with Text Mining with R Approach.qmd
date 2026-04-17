@@ -1,0 +1,26 @@
+---
+title: "Sentiment Analysis with Text Mining with R"
+author: "Pascal Hermann Kouogang Tafo"
+format: html
+editor: visual
+---
+
+## INTRODUCTION
+
+Human often use their understanding of the emotional intent of words to infer whether a section of text is positive or negative. In Chapter 2 of Text Mining with R,authors introduce sentiment analysis and our assignment consists to reproduce and extend the primary example.
+
+------------------------------------------------------------------------
+
+### PLANNED APPROACH
+
+To tackle this task, we will go work as followed:
+
+-   Load the **tidyverse**, **tidytext**, and **janeaustenr** libraries to mirror the original environment.
+
+-   Process the text of *Emma* and *Pride and Prejudice* using the **bing** and **nrc** lexicons to recreate the net sentiment trajectories.
+
+-   Import a new dataset to test the flexibility of the tidy format.
+
+-   Incorporate a third lexicon to observe how domain-specific emotional tagging differs from general-purpose dictionaries.
+
+-   Visualize the results of all three lexicons against the new corpus to identify shifts in absolute vs. relative sentiment.
